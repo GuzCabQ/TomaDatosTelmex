@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:toma_datos_telmex/presentation/screens/screen_of_screens.dart';
 
 import 'config/theme.dart';
 
@@ -15,21 +16,9 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (BuildContext context, Widget? child) => GetMaterialApp(
-        theme: ThemeApp.theme,
-        title: 'Material App',
-        home: Scaffold(
-          backgroundColor: ColorsApp.primaryColor,
-          appBar: AppBar(
-            title: const Text('Material App Bar'),
-          ),
-          body: const Center(
-            child: Text(
-              'Hello World',
-              style: FontsApp.bodyLarge,
-            ),
-          ),
-        ),
-      ),
+          theme: ThemeApp.theme,
+          title: 'Material App',
+          home: const ScreenOfScreens()),
     );
   }
 }
