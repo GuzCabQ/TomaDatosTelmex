@@ -35,6 +35,7 @@ dependencies:
   get: ^4.6.5
   go_router: ^6.2.0
   google_maps_flutter: ^2.2.5
+  group_button: ^5.2.2
   intl: ^0.18.0
 
 dev_dependencies:

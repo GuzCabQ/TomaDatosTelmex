@@ -1,4 +1,4 @@
-#Mon Mar 06 18:07:59 CST 2023
-base.0=/Users/guzz/Documents/GitHub/TomaDatosTelmex/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Mar 10 09:30:36 CST 2023
+base.0=C\:\\Users\\Monto\\OneDrive\\Documentos\\Flutter\\TomaDatosTelmex\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

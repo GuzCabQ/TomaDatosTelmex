@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:toma_datos_telmex/presentation/screens/home_screen.dart';
+import 'package:toma_datos_telmex/presentation/screens/list_of_ducts_screen.dart';
+import 'package:toma_datos_telmex/presentation/screens/pole_detail_screen.dart';
 import '../widgets/widgets.dart';
 
 class ScreenOfScreens extends StatelessWidget {
@@ -31,6 +33,24 @@ class ScreenOfScreens extends StatelessWidget {
                       },
                       screenTitle: 'Home Screen',
                       developer: 'Gustavo',
+                      status: StatusScreen.inProcess,
+                    ),
+                    ItemScreen(
+                      size: c.maxWidth,
+                      onPressed: () {
+                        Get.to(() => const ListDuctsScreen());
+                      },
+                      screenTitle: 'Lista de Ductos',
+                      developer: 'Fernando',
+                      status: StatusScreen.inProcess,
+                    ),
+                    ItemScreen(
+                      size: c.maxWidth,
+                      onPressed: () {
+                        Get.to(() => PoleDetailScreen());
+                      },
+                      screenTitle: 'Detalle de Poste',
+                      developer: 'Fernando',
                       status: StatusScreen.inProcess,
                     ),
                   ],

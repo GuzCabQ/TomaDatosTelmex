@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:toma_datos_telmex/presentation/screens/screen_of_screens.dart';
 
+
 import 'config/theme.dart';
 
 void main() => runApp(const MyApp());
